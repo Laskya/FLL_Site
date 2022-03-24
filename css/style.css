@@ -1,0 +1,595 @@
+.rwd{
+	display:none;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins,
+	kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol,
+	ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+	thead, tr, th, td, article, aside, canvas, details, figure, figcaption,
+	hgroup, menu, footer, header, nav, section, summary, time, mark, audio,
+	video {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup, footer,
+	header, nav, section, audio, video {
+	display: block
+}
+
+a img {
+	border: 0
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;	
+	font: 16px/26px;
+	margin:0;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 64px;
+	line-height: 74px;
+}
+
+h2 {
+	font-size: 48px;
+	line-height: 58px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 36px;
+	line-height: 46px;
+}
+
+h4 {
+	font-size: 28px;
+	line-height: 38px;
+}
+
+p {
+	text-align: center;
+}
+
+header#navigation-header{
+	height: 60px;
+	background-color: #aaa;
+	box-shadow: 1px 2px 10px #000;
+}
+
+div#logo-container{
+	padding: 12.5px 30px;
+	font-size: 28px;
+	font-family: 'Great Vibes', cursive;
+	background-color: #fff;
+}
+
+
+header#header-container{
+	margin: 30px 0;
+}
+
+section#articles {
+	margin: 50px 0;
+}
+
+img{
+	vertical-align: middle;
+}
+
+body header nav {
+	line-height: 60px;
+	text-align: center;
+	background-color: #000;
+}
+
+body header nav ul {
+	padding-left: 0px;
+}
+
+body header nav ul li {
+	margin-left: 0.5em;
+	display: inline;
+}
+
+body header nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#content-rwd {
+	color: #aaa;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+}
+
+li.navigation-rwd {
+	background-color: #aaa;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	height: 25px;
+	line-height: 25px;
+	
+}
+
+li.navigation-rwd a{
+	font-size: 10px;
+}
+
+
+li.navigation-rwd:hover {
+	background-color:#bbb;
+}
+a#back {
+	margin: 10px 0 20px;
+}
+
+section {
+	margin: 10px 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+} 
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 15px 0;
+}
+
+
+
+
+#welcome-text {
+	background-image:url('../img/galaktyka.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#welcome-text div.wrapper {
+	height: 600px;
+}
+
+#welcome-text p {
+	text-align: right;
+	color: #fff;
+}
+
+#welcome-text .text {
+	color: #fff;
+	top: 150px;
+}
+
+#info {
+	background-image:url('../img/ast.jpg');
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#info div.wrapper {
+	height: 800px;
+	width: 400px;
+}
+
+#info .text {
+	background-color: #fff;
+	width: 250px;
+	padding: 30px 75px 20px 75px;
+	opacity: 0.8;
+	top: 200px;
+} 
+
+
+
+
+
+.us{
+	margin:0;
+	-webkit-box-shadow: inset 0px 5px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 5px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 5px 8px 0px rgba(0,0,0,0.75);
+}
+
+.us div.wrapper {
+	width: 950px;
+}
+
+.us .text {
+	background-color: #fff;
+	width: 800px;
+	padding: 30px 75px 20px 75px;
+	opacity: 0.8;
+	top: 300px;
+}
+
+
+#us-header{
+	background-image:url('../img/nasa.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#us-header div.wrapper{
+	height: 800px;
+}
+
+
+#us-merkury{
+	background-image:url('../img/merkury.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#us-merkury div.wrapper{
+	height: 650px;
+}
+
+
+#us-gemini{
+	background-image:url('../img/gemini.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#us-gemini div.wrapper{
+	height: 700px;
+}
+
+
+#us-apollo{
+	background-image:url('../img/apollo.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#us-apollo div.wrapper{
+	height: 700px;
+}
+
+
+#us-skylab{
+	background-image:url('../img/skylab.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#us-skylab div.wrapper{
+	height: 700px;
+}
+
+
+#us-sts{
+	background-image:url('../img/sts.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#us-sts div.wrapper{
+	height: 700px;
+}
+
+
+#us-spacex{
+	background-image:url('../img/spacex.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#us-spacex div.wrapper{
+	height: 650px;
+}
+
+
+
+
+
+.rus{
+	margin:0;
+	-webkit-box-shadow: inset 0px 5px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 5px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 5px 8px 0px rgba(0,0,0,0.75);
+}
+
+.rus div.wrapper {
+	width: 950px;
+} 
+
+.rus .text {
+	background-color: #fff;
+	width: 800px;
+	padding: 30px 75px 20px 75px;
+	opacity: 0.8;
+	top: 300px;
+}
+
+
+
+#rus-header{
+	background-image:url('../img/buran.jpg');
+	background-size:cover;
+	background-position: center center;
+}
+
+#rus-header div.wrapper {
+	height: 800px;
+} 
+
+
+
+#rus-wostok{
+	background-image:url('../img/wostok.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#rus-wostok div.wrapper {
+	height: 750px;
+} 
+
+
+
+#rus-woschod{
+	background-image:url('../img/woschod.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#rus-woschod div.wrapper {
+	height: 700px;
+} 
+
+
+
+#rus-sojuz{
+	background-image:url('../img/soyuz.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#rus-sojuz div.wrapper {
+	height: 900px;
+}
+
+
+
+
+#rus-salut{
+	background-image:url('../img/salut3.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#rus-salut div.wrapper {
+	height: 700px;
+}
+
+
+
+#rus-mir{
+	background-image:url('../img/mir2.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#rus-mir div.wrapper {
+	height: 700px;
+}
+
+
+
+
+
+.bg-light-gray {
+	background-color: #E8E8EE;
+}
+
+.active {
+	color: #fff;
+}
+.non-active {
+	color: #aaa;
+}
+.fixed-header {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+}
+.right{
+	right: 220px;
+}
+.w840{
+	width: 840px;
+}
+.h200 {
+	height:200px;
+}
+.rel {
+	position: relative;
+}
+.abs {
+	position: absolute;
+}
+
+.fix {
+	position: fixed;
+}
+
+		
+   .wrapper {
+      margin: 0 auto;
+      width: 840px;
+   }
+   
+   .mobile{display: none;}
+   .desktop{display: block;}
+
+   @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .wrapper {
+         width: 696px;
+      }
+	  .right{
+		right: 146px;
+	  }
+	  .mobile{display: block;}
+	  .desktop{display: none;}
+	  
+   }
+
+   @media only screen and (max-width: 767px) {
+      .wrapper {
+         width: 264px;
+      }
+	  .right{
+		right: -64px;
+	  }
+	  .mobile{display: block;}
+	  .desktop{display: none;}
+	  
+		h2 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+
+		h3 {
+			font-size: 20px;
+			line-height: 30px;
+		}
+		  
+	  
+		li#navigation-rwd {
+			height: 30px;
+			padding: 20px 10px;
+		}
+	  
+	  
+		
+		#welcome-text div.wrapper {
+			width: 300px;
+			height: 400px;
+		}
+		
+		#welcome-text .text {
+			top: 90px;
+		}
+		
+		#info div.wrapper {
+			height: 600px;
+			width: 320px;
+		}
+
+		#info .text {
+			width: 240px;
+			padding: 40px 40px 20px 40px;
+			top: 80px;
+		} 
+		
+		
+		
+		.us{
+			background-size: 50%, cover;
+		}
+		
+		.us .text {
+			padding: 40px 40px 20px 40px;
+			background-color: #fff;
+			width: 240px;
+			top: 80px;
+		}
+		.us div.wrapper {
+			width: 320px;
+		} 
+		
+		#us-header div.wrapper{
+			height: 1000px;
+		}
+		
+		#us-merkury div.wrapper{
+			height: 850px;
+		}
+		
+		#us-gemini div.wrapper{
+			height: 900px;
+		}
+		
+		#us-apollo div.wrapper{
+			height: 1100px;
+		}
+			
+		#us-skylab div.wrapper{
+			height: 850px;
+		}
+
+		#us-sts div.wrapper{
+			height: 900px;
+		}
+		
+		#us-spacex div.wrapper{
+			height: 750px;
+		}
+		
+		
+		
+		
+		.rus {
+			background-size: 100%, cover;
+		}
+		
+		.rus .text {
+			padding: 40px 40px 20px 40px;
+			background-color: #fff;
+			width: 240px;
+			top: 80px;
+		}
+		.rus div.wrapper {
+			width: 320px;
+		} 
+		
+		#rus-header div.wrapper {
+			height: 1200px;
+		} 
+		
+		#rus-wostok div.wrapper {
+			height: 1100px;
+		} 
+		
+		#rus-woschod div.wrapper {
+			height: 800px;
+		}
+				
+		#rus-sojuz div.wrapper {
+			height: 1700px;
+		}
+		
+		#rus-salut div.wrapper {
+			height: 900px;
+		}
+		
+		#rus-mir div.wrapper {
+			height: 800px;
+		}
+			
+   }
+
+   @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .wrapper {
+         width: 408px;
+      }
+	  .right{
+		right: 4px;
+	  }
+	  
+   }
